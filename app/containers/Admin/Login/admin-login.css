@@ -1,0 +1,53 @@
+.admin-card{
+    background-color: #FFFF;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 767px) {
+    .admin-card{
+      width: 100%;
+    }
+    .fp-link{
+        margin-right: 10% !important;
+    }
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.line{
+    width: 50px;
+    background-color: #000;
+    border: none;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.error-message{
+    text-align: center;
+    color: red;
+}
+
+.fp-link{
+    margin-right: 25%;
+    float: right;
+    color: #09799C;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.custom-button{
+    background-color: #09799C;
+    color: #FFF;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.category-name{
+    background-color: #687efc;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.remove-media-icon{
+    position: absolute;
+    left: 90px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.update-image{
+    width: 100px;
+    height: 100px;
+    color: #09799C;
+    border: 1px solid #09799C;
+    text-align: center;
+}
+
+.Dropdown{
+    background-color: #6974b3!important;
+    color: white!important;
+    border: none;
+}
+
+.Dropdown:hover { 
+    background: #687efc!important; 
+    color: white;
+    font-weight: bold;
+} 
+
+.show>.btn-primary.dropdown-toggle {
+    color: black !important;
+    background-color: #6974b3 !important;
+    border: none !important;
+}
+
+.nav-item, .nav-item:hover{
+    color: black !important;
+}
+
+.nav-item.active{
+    color: #09799C !important;
+}
+
+.Dropdown-Width{
+    width: 7.0em;
+}
+
+.MuiGrid-grid-xs-2 {
+    flex-grow: 0;
+    max-width: 100%!important;
+    flex-basis: 16.666667%;
+}
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap!important;
+    box-sizing: border-box;
+}
+.Dropdown-Width {
+    width: 7.0em;
+    margin-right: 20px!important;
+}

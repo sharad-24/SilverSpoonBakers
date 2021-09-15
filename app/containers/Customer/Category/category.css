@@ -1,0 +1,103 @@
+
+.backImage{
+    background-size: cover;
+    background-position: center; 
+    font-size: 1.5rem !important;  
+}
+.backImage:hover {
+    box-shadow: 
+     0 15px 30px 0 rgba(0,0,0,0.08),
+     0 5px 25px 0 rgba(0,0,0,.08);
+   }
+.scrollTab{
+    border-radius : "10px";
+    color: "white";
+    font-weight: "bold";
+    margin: "3%";
+}
+
+h3{
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+
+.MuiTypography-body1 {
+    font-size: 1rem!important;
+    font-family: Helvetica!important;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-transform:bold!important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+
+    .mobileContainer{
+        text-align: start;
+    }
+   
+
+    .mobileCard{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        width: 70%!important;
+        margin-left: 15%!important;
+        margin-top: 40px!important;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+    .backImage{
+        background-size: cover;
+        background-position: center; 
+        font-size: 1rem !important;  
+    }
+
+ }
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrolling-wrapper{
+    overflow-x: auto;
+}
+
+.card{
+    height: max-content;
+    border: none;
+    box-shadow: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;	
+}
+
+
+.sizingCard{
+    box-shadow: none;
+    width: 260px;
+    border: none;
+    border-radius: 0px;
+}
+
+.sizingCardText{
+    white-space: nowrap!important; 
+    width: 200px; 
+    overflow: hidden!important;
+    text-overflow: ellipsis!important; 
+}
+
+
+

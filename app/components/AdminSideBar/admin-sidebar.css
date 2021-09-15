@@ -1,0 +1,71 @@
+.admin-sidebar-container{
+    height: 100%;
+    border-right: 0.1em solid #9e9999;
+    position: fixed;
+    width: 17%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    
+}
+
+.admin-sidebar-container::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+.admin-sidebar-link-container {
+    padding: 5% 15% 5% 15%;
+    font-weight: normal;
+    text-align: justify;
+    
+}
+
+.admin-sidebar-link-container.active{
+    font-weight: bold;
+    background: linear-gradient(0.25turn, #3f51b5 ,90%, #ffffff);
+   
+    
+}
+/* #378cd1 */
+.admin-sidebar-link-container.active .admin-sidebar-link{
+    color: #FFFFFF !important;
+    
+    
+}
+
+.admin-sidebar-link{
+    font-size: 1em;
+    text-decoration: none;
+    color: #000000;
+    text-align: justify;
+}
+
+.admin-sidebar-link:hover{
+    text-decoration: none;
+    color: black!important;
+}
+
+
+.admin-modal{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+.cancel-button{
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin-left: 5%!important;
+}
+.avatar-user{
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+}
